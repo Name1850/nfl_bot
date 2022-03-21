@@ -92,6 +92,4 @@ for filename in os.listdir("./cogs"):
         client.load_extension(f"cogs.{filename[:-3]}")
         print(filename, "cog loaded.")
 
-# OTExNzg3MjQ2NzgzNDM0Nzky.YZmeCw.RjZYEB6gtuAt5uLKpgigDn_GL58 real
-# Nzg0NjcyNjQ1MzMyNTk4Nzk2.X8stWQ.5NqGcSMIR9JUiV64FbbiwvPBgwA testing
-client.run("OTExNzg3MjQ2NzgzNDM0Nzky.YZmeCw.RjZYEB6gtuAt5uLKpgigDn_GL58")
+client.run("TOKEN")
